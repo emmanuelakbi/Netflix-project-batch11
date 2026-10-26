@@ -1,0 +1,116 @@
+body {
+  background-image: linear-gradient(#000000a9), url("./img/bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  width: 90vw;
+  margin: 0 auto;
+  font-family: "Lato", sans-serif;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.header-top img {
+  width: 150px;
+}
+
+.header-top button {
+  background-color: #e50914;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.main-hero {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-hero h1 {
+  font-size: 60px;
+  font-weight: 900;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.main-hero p {
+  font-size: 24px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.main-hero h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.main-hero_input {
+  display: flex;
+  align-items: center;
+  width: 600px;
+}
+
+.main-hero_input input {
+  margin-right: 10px;
+  padding: 20px;
+  flex-grow: 1;
+  background-color: #000000a2;
+  border: 1px solid #646464;
+  border-radius: 5px;
+  color: white;
+}
+
+.main-hero_input button {
+  padding: 15px 40px;
+  background-color: #e50914;
+  border: none;
+  font-size: 25px;
+  color: white;
+  border-radius: 5px;
+}
+
+.image-box {
+  color: white;
+  position: relative;
+}
+
+.image-box span {
+  color: black;
+  font-size: 120px;
+  font-weight: 600;
+  -webkit-text-stroke: 1px #fff;
+  position: absolute;
+  top: 40%;
+  left: -20px;
+}
+
+.movie-poster {
+  margin-top: 50%;
+  padding-bottom: 150px;
+  color: white;
+}
+
+.movie-poster h1{
+  margin-left: 260px;
+}
+
+.parent__image-box {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
